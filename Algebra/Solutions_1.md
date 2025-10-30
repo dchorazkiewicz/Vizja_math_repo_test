@@ -1,6 +1,7 @@
 Super! Zacznijmy od pierwszego problemu z macierzami.
 
 Masz dane macierze:
+
 $$
 A=\begin{pmatrix}1 & 2\\ 3 & 4\end{pmatrix} \quad \text{i} \quad B=\begin{pmatrix}0 & -1\\ 2 & 1\end{pmatrix}
 $$
@@ -12,6 +13,7 @@ Obliczymy teraz poszczególne działania krok po kroku.
 ## 1. Dodawanie macierzy ($A+B$)
 
 Aby dodać macierze, dodajemy **odpowiadające sobie elementy** (na tych samych pozycjach).
+
 $$
 A+B = \begin{pmatrix}1 & 2\\ 3 & 4\end{pmatrix} + \begin{pmatrix}0 & -1\\ 2 & 1\end{pmatrix} = \begin{pmatrix}1+0 & 2+(-1)\\ 3+2 & 4+1\end{pmatrix} = \begin{pmatrix}1 & 1\\ 5 & 5\end{pmatrix}
 $$
@@ -21,6 +23,7 @@ $$
 ## 2. Odejmowanie macierzy ($A-B$)
 
 Aby odjąć macierze, odejmujemy **odpowiadające sobie elementy**.
+
 $$
 A-B = \begin{pmatrix}1 & 2\\ 3 & 4\end{pmatrix} - \begin{pmatrix}0 & -1\\ 2 & 1\end{pmatrix} = \begin{pmatrix}1-0 & 2-(-1)\\ 3-2 & 4-1\end{pmatrix} = \begin{pmatrix}1 & 3\\ 1 & 3\end{pmatrix}
 $$
@@ -30,6 +33,7 @@ $$
 ## 3. Mnożenie macierzy przez skalar ($2A$)
 
 Aby pomnożyć macierz przez skalar (liczbę), **każdy element** macierzy mnożymy przez ten skalar.
+
 $$
 2A = 2 \cdot \begin{pmatrix}1 & 2\\ 3 & 4\end{pmatrix} = \begin{pmatrix}2\cdot 1 & 2\cdot 2\\ 2\cdot 3 & 2\cdot 4\end{pmatrix} = \begin{pmatrix}2 & 4\\ 6 & 8\end{pmatrix}
 $$
